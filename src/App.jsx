@@ -7,7 +7,6 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Center flexDirection='column' h='100vh' w='100vw'>
-        <ColorModeSwitcher />
         <VStack bgGradient='linear(to-b, #7928CA, #FF0080)' bgClip='text'>
           <Text h='20vw' fontSize='20vw'>
             Riva
@@ -17,6 +16,7 @@ function App() {
           </Text>
         </VStack>
         <DrawerMenu />
+        <ColorModeSwitcher />
       </Center>
     </ChakraProvider>
   );
